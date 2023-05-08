@@ -14,6 +14,7 @@ function ContextProvider({ children }) {
     console.log(response.data);
     console.log("senin amks")
     setData(response.data);
+    console.log(data)
   };
 
   const onCreate = async (title, task) => {
